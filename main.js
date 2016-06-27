@@ -74,12 +74,12 @@ UI_MiniLogo = 1;		// [&] small channel logo/avatar in the top navbar
 UI_ChannelName = 1;		// [&] channel custom brand name
 UI_HeaderDropMenu = 1;		// [&] additional header dropdown menu
 UI_RemoveLayoutMenu = 1;	// removing 'Layout' menu from the header
-UI_MOTDAutoLogo = 1;		// [&] big channel logo inserted into MOTD
-UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like channel header
-UI_MOTDDelete = 1;		// deleting previous MOTD after accepting/loading script
-UI_RulesBtn = 1;		// [&] button displaying channel rules
+UI_MOTDAutoLogo = 0;		// [&] big channel logo inserted into MOTD
+UI_MOTDTabs = 0;		// [&] switchable MOTD tabs application for homepage-like channel header
+UI_MOTDDelete = 0;		// deleting previous MOTD after accepting/loading script
+UI_RulesBtn = 0;		// [&] button displaying channel rules
 UI_AttentionBar = 0;		// [&] imageboard-style attention bar (requires external application)
-UI_ChannelAnnouncement = 1;	// [&] additional custom channel announcement
+UI_ChannelAnnouncement = 0;	// [&] additional custom channel announcement
 UI_FullTitleBar = 1;		// full-width video title bar
 UI_ProgressBar = 1;		// YouTube/Dailymotion progress bar
 				// [ REQUIRE: UI_FullTitleBar enabled ]
@@ -89,17 +89,17 @@ UI_TitleBarDescription = 1;	// [&] custom title bar description (default "Curren
 UI_JoinText = 1;		// [&] chat message after user joining
 UI_LeaveText = 1;		// [&] chat message after user leaving
 UI_UserCommands = 1;		// [&] additional commands in the chat window
-UI_UserMarks = 1;		// [&] special signs/avatars before every message for defined users
-UI_Squavatars = 1;		// automatic squavatars (2-colored square avatars) before every message
+UI_UserMarks = 0;		// [&] special signs/avatars before every message for defined users
+UI_Squavatars = 0;		// automatic squavatars (2-colored square avatars) before every message
 				// [ REQUIRE: UI_UserMarks enabled ]
 UI_UsernameMark = 1;		// [&] custom mark after username (default ":")
-UI_MessagesSuffix = 1;		// [&] text added to random chat messages
+UI_MessagesSuffix = 0;		// [&] text added to random chat messages
 UI_CustomPingSound = 1;		// [&] custom sound for chat notifications
 UI_SoundFilters = 1;		// [&] chat sounds played after sending certain words
 UI_ChatSpeak = 1;		// text speaking after '!say' and '!mow' commands (english and polish)
-UI_IndependentEmotes = 1;	// [&] additional settings-independent emotes
+UI_IndependentEmotes = 0;	// [&] additional settings-independent emotes
 UI_IndependentFilters = 1;	// [&] additional settings-independent filters
-UI_FontsBtn = 1;		// button displaying box with clickable chat fonts
+UI_FontsBtn = 0;		// button displaying box with clickable chat fonts
 				// [ REQUIRE: INSTALLATION (see above) ]
 UI_UnicodeChars = 1;		// [&] additional buttons in the fonts panel with unicode characters
 				// [ REQUIRE: UI_FontsBtn enabled ]
@@ -107,23 +107,23 @@ UI_EmotesBtn = 1;		// button displaying box with clickable chat emotes
 UI_GroupEmotes = 1;		// [&] emotes panel pagination, display limited number of emotes at one time
 				// [ REQUIRE: UI_EmotesBtn enabled ]
 UI_CommandsBtn = 1;		// button displaying modal window with chat commands help
-UI_ModPanel = 1;		// [&] panel with messages and help for moderators
-UI_CustomCaptions = 1;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
+UI_ModPanel = 0;		// [&] panel with messages and help for moderators
+UI_CustomCaptions = 0;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
 UI_PlayerOptions = 1;		// [&] additional player options
 UI_TransformationBtns = 1;	// player transformation buttons
-UI_ChannelDatabase = 1;		// [&] box with embed additional media database
-UI_ChannelGalleries = 1;	// [&] box with embed galleries
+UI_ChannelDatabase = 0;		// [&] box with embed additional media database
+UI_ChannelGalleries = 0;	// [&] box with embed galleries
 UI_DisplayModeSel = 1;		// selector with player display modes
-UI_ChannelTheme = 1;		// [&] additional default channel theme
+UI_ChannelTheme = 0;		// [&] additional default channel theme
 UI_EmbeddingMedia = 1;		// [&] possibility to embedding (displaying) images and .webm videos on the chat
 UI_MediaControls = 1;		// embedded video preloaded controls
 				// [ REQUIRE: UI_EmbeddingMedia enabled ]
 UI_QuickCommandsBtns = 1;	// buttons with '/clear' and '/afk' functions
 UI_VolumeBtns = 1;		// additional volume buttons for YouTube player
-UI_EmptyCornerBackground = 1;	// [&] random background image for empty playlist row corner
+UI_EmptyCornerBackground = 0;	// [&] random background image for empty playlist row corner
 UI_ExtendedGetURLs = 1;		// extended 'Get URLs' function
 UI_DefaultNonTemp = 1;		// default unchecking "Add as temporary" checkbox after loading for registered users
-UI_CustomFooter = 1;		// [&] custom channel footer
+UI_CustomFooter = 0;		// [&] custom channel footer
 UI_CustomRightFooter = 0;	// [&] right-sided footer box
 UI_UserStatistics = 1;		// displaying in the footer user visits number and current online time
 UI_ExternalScript = 0;		// [&] additional external script file
@@ -147,7 +147,7 @@ Favicon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
 MiniLogo_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
-ChannelName_Caption = 'CyTube Plus';
+ChannelName_Caption = 'Critter Synch';
 
 HeaderDropMenu_Title = 'Synch';
 
